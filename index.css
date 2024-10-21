@@ -1,0 +1,99 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+html
+{
+    height:100%;
+width:100%;
+}
+body
+{
+min-height:100vh;
+min-width:10vw;
+display:flex;
+justify-content:center;
+align-items:center;
+background-color: rgb(144, 177, 205);
+}
+
+.container
+{
+    min-height:40vh;
+    min-width:28vw;
+    background-color: #fff;
+    border-radius:1.5rem;
+    padding:1.6rem;
+
+}
+
+form select,button,input
+{
+    width:100%;
+    padding:0.2rem;
+    border:none;
+    outline:none;
+    border-radius:0.7rem;
+}
+
+form input
+{
+    border:1px solid lightgrey;
+    font-size:1rem;
+    height:2.6rem;
+    padding-left:0.5rem;
+}
+
+.dropdown 
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:2rem;
+
+}
+
+.selectCountry img
+{
+    max-width:2rem;
+}
+
+.selectCountry
+{
+display:flex;
+width:6rem;
+/* background-color: aquamarine; */
+align-items:center;
+justify-content:center;
+border-radius:0.5rem;
+border:1px solid lightgrey;
+
+}
+
+.selectCountry select
+{
+    font-size:1rem;
+    width:auto;
+}
+
+.msg
+{
+    margin:2rem 0rem 2rem 0rem;
+}
+
+form button 
+{
+    height:3rem;
+    color:#fff;
+    background-color:#af4d98;
+    font-size:1rem;
+}
+
+.exchange
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:1rem;
+}
